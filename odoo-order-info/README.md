@@ -1,3 +1,5 @@
+> query
+
 ```graphql
 {
   account_invoice_line {
@@ -13,3 +15,11 @@
   }
 }
 ```
+
+> relationship
+```sh
+origin_origin_invoice_to_line -> is 
+
+account_invoice_line . origin → account_invoice . origin
+```
+
