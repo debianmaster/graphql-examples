@@ -1,4 +1,4 @@
-```json
+```graphql
 {
   account_invoice_line {
     origin_origin_invoice_to_line {
